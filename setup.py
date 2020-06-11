@@ -14,7 +14,7 @@ setup(
         'console_scripts': ['smartcroppy=smartcrop:main']
     },
     include_package_data=True,
-    install_requires=['numpy', 'Pillow>=4.0.0'],
+    install_requires=['numpy'],
     py_modules=['smartcrop'],
     zip_safe=False,
 
